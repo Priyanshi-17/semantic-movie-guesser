@@ -44,21 +44,21 @@ An interactive AI-powered guessing game where users try to guess the movie based
 
 ```MovieGame/
 ├── app/
-│ ├── app.py # Streamlit frontend
-│ └── background1.jpg # UI background image
+│ ├── app.py                        # Streamlit frontend
+│ └── background1.jpg               # UI background image
 ├── data/
-│ ├── bollywood_tollywood.json # Bollywood+Tollywood raw movie data
-│ └── hollywood.json # Hollywood raw movie data
+│ ├── bollywood_tollywood.json      # Bollywood+Tollywood raw movie data
+│ └── hollywood.json                # Hollywood raw movie data
 ├── scripts/
 │ ├── embeddings/
-│ │ ├── bollywood_tollywood_index/ # FAISS index for Bollywood+Tollywood
-│ │ └── hollywood_index/ # FAISS index for Hollywood
-│ ├── ingest_data.py # Script to load and convert data to FAISS
-│ ├── retriever.py # Functions to retrieve relevant movie
-│ └── test_faiss.py # Script to test FAISS search
+│ │ ├── bollywood_tollywood_index/           # FAISS index for Bollywood+Tollywood
+│ │ └── hollywood_index/                     # FAISS index for Hollywood
+│ ├── ingest_data.py                         # Script to load and convert data to FAISS
+│ ├── retriever.py                           # Functions to retrieve relevant movie
+│ └── test_faiss.py                          # Script to test FAISS search
 ├── styles/
-│ └── style.css # Custom CSS for Streamlit app
-├── test.py # Main test script
+│ └── style.css                              # Custom CSS for Streamlit app
+├── test.py 
 ```
 
 
