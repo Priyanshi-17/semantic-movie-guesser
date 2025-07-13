@@ -63,5 +63,7 @@ An interactive AI-powered guessing game where users try to guess the movie based
 
 
 
+<img width="1855" height="917" alt="image" src="https://github.com/user-attachments/assets/d6f1c74c-a56c-450c-839b-b60bdffa57b5" />
+
 
 
