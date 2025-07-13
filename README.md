@@ -42,7 +42,7 @@ An interactive AI-powered guessing game where users try to guess the movie based
 
 ## 📁 Project Structure
 
-MovieGame/
+```MovieGame/
 ├── app/
 │ ├── app.py # Streamlit frontend
 │ └── background1.jpg # UI background image
@@ -59,7 +59,7 @@ MovieGame/
 ├── styles/
 │ └── style.css # Custom CSS for Streamlit app
 ├── test.py # Main test script
-
+```
 
 
 
