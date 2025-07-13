@@ -1,5 +1,4 @@
-# 🎬Semantic-Movie-Guesser
-
+<h2 align="center">🎬 Semantic-Movie-Gusser 🎯</h2>
 An interactive AI-powered guessing game where users try to guess the movie based on storyline snippets. The system uses semantic search to retrieve relevant movie storylines from a local vector database built with FAISS and HuggingFace embeddings.
 
 ---
