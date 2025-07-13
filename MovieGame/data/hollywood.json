@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Inception",
+    "industry": "Hollywood",
+    "storyline": "A skilled thief is given a chance at redemption if he can successfully perform inception \u2014 planting an idea into someone's subconscious through shared dreaming."
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "industry": "Hollywood",
+    "storyline": "Wrongfully imprisoned, a man forms a lifelong friendship and quietly plans a daring escape, all while bringing hope to those around him."
+  },
+  {
+    "title": "The Dark Knight",
+    "industry": "Hollywood",
+    "storyline": "Batman faces his greatest psychological and moral challenge yet when Gotham is thrown into chaos by the anarchic Joker."
+  },
+  {
+    "title": "Titanic",
+    "industry": "Hollywood",
+    "storyline": "A young couple from different social backgrounds fall in love aboard the ill-fated RMS Titanic during its maiden voyage."
+  },
+  {
+    "title": "Interstellar",
+    "industry": "Hollywood",
+    "storyline": "In a desperate attempt to find a new home for humanity, astronauts travel through a wormhole to explore potentially habitable planets beyond our galaxy."
+  },
+  {
+    "title": "Avengers: Endgame",
+    "industry": "Hollywood",
+    "storyline": "The remaining Avengers rally together for one last stand against Thanos in a time-bending quest to restore balance to the universe."
+  },
+  {
+    "title": "Forrest Gump",
+    "industry": "Hollywood",
+    "storyline": "A simple man with a kind heart unwittingly influences many historical events while on a lifelong journey to reunite with his childhood love."
+  },
+  {
+    "title": "The Matrix",
+    "industry": "Hollywood",
+    "storyline": "A hacker discovers that the world he lives in is a simulated reality and joins a rebellion to free humanity from machine control."
+  },
+  {
+    "title": "Gladiator",
+    "industry": "Hollywood",
+    "storyline": "A betrayed Roman general fights his way back to seek vengeance against the corrupt emperor who murdered his family."
+  },
+  {
+    "title": "The Pursuit of Happyness",
+    "industry": "Hollywood",
+    "storyline": "A struggling salesman takes custody of his son and embarks on an inspiring journey to overcome adversity and achieve success."
+  }
+]

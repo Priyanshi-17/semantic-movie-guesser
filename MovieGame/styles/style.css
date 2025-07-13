@@ -1,0 +1,37 @@
+.stApp {
+    background-color: rgb(192, 146, 216);
+}
+
+
+/*---------------------------------------------------------------------- */
+
+div.stButton > button {
+    background-color: #c83138;  
+    color: white;
+    font-size: 18px;
+    padding: 0.75em 1.5em;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+div.stButton > button:hover {
+    background-color: #f40612;
+    color: #fff;
+}
+
+
+/*---------------------------------------------------------------------- */
+
+.storyline {
+    background-color: #222;
+    color: #d2c79f;  /* IMDb yellow */
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+}
+
+
+
