@@ -29,8 +29,37 @@ An interactive AI-powered guessing game where users try to guess the movie based
 
 ---
 
+## 🛠️ How It Works
+
+- Movie plots are loaded from JSON files.
+- Storylines are embedded using the `all-MiniLM-L6-v2` model.
+- Embeddings are stored in FAISS indexes by industry.
+- User selects a category (Bollywood+Tollywood or Hollywood).
+- A random plot is shown with 4 movie title options.
+- User guesses the movies.
+
+---
+
 ## 📁 Project Structure
 
-<pre> <code> ## 📁 Project Structure ``` ├── app │ └── app.py # Streamlit frontend ├── embeddings │ ├── hollywood_index/ # FAISS index for Hollywood │ └── bollywood_tollywood_index/ # FAISS index for Bollywood+Tollywood ├── data │ ├── bollywood_tollywood.json # Raw movie data │ └── hollywood.json ├── utils │ ├── build_faiss.py # Embedding + FAISS creation script │ └── helpers.py # Utility functions for guessing logic ├── README.md └── requirements.txt ``` </code> </pre>
+MovieGame/
+├── app/
+│   ├── app.py                 # Streamlit frontend
+│   └── background1.jpg        # UI background image
+├── data/
+│   ├── bollywood_tollywood.json  # Bollywood+Tollywood raw movie data
+│   └── hollywood.json            # Hollywood raw movie data
+├── scripts/
+│   ├── embeddings/
+│   │   ├── bollywood_tollywood_index/  # FAISS index for Bollywood+Tollywood
+│   │   └── hollywood_index/            # FAISS index for Hollywood
+│   ├── ingest_data.py          # Script to load and convert data to FAISS
+│   ├── retriever.py            # Functions to retrieve relevant movie
+│   └── test_faiss.py           # Script to test FAISS search
+├── styles/
+│   └── style.css               # Custom CSS for Streamlit app
+├── test.py                     
+
+
 
 
